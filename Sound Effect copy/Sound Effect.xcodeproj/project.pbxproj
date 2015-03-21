@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D273F3F61ABD727600FD1421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273F3F51ABD727600FD1421 /* AppDelegate.swift */; };
+		D273F3F81ABD727600FD1421 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273F3F71ABD727600FD1421 /* RecordSoundViewController.swift */; };
+		D273F3FB1ABD727600FD1421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D273F3F91ABD727600FD1421 /* Main.storyboard */; };
+		D273F3FD1ABD727600FD1421 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D273F3FC1ABD727600FD1421 /* Images.xcassets */; };
+		D273F4001ABD727600FD1421 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D273F3FE1ABD727600FD1421 /* LaunchScreen.xib */; };
+		D273F40C1ABD727600FD1421 /* Sound_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273F40B1ABD727600FD1421 /* Sound_EffectTests.swift */; };
+		D273F4181ABD951300FD1421 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273F4171ABD951300FD1421 /* PlaySoundsViewController.swift */; };
+		D273F41A1ABDA49800FD1421 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D273F4191ABDA49800FD1421 /* movie_quote.mp3 */; };
+		D273F41C1ABDAA0C00FD1421 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273F41B1ABDAA0C00FD1421 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D273F4061ABD727600FD1421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D273F3E81ABD727600FD1421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D273F3EF1ABD727600FD1421;
+			remoteInfo = "Sound Effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D273F3F01ABD727600FD1421 /* Sound Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D273F3F41ABD727600FD1421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D273F3F51ABD727600FD1421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D273F3F71ABD727600FD1421 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
+		D273F3FA1ABD727600FD1421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D273F3FC1ABD727600FD1421 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D273F3FF1ABD727600FD1421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D273F4051ABD727600FD1421 /* Sound EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D273F40A1ABD727600FD1421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D273F40B1ABD727600FD1421 /* Sound_EffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_EffectTests.swift; sourceTree = "<group>"; };
+		D273F4171ABD951300FD1421 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		D273F4191ABDA49800FD1421 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		D273F41B1ABDAA0C00FD1421 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D273F3ED1ABD727600FD1421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D273F4021ABD727600FD1421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D273F3E71ABD727600FD1421 = {
+			isa = PBXGroup;
+			children = (
+				D273F3F21ABD727600FD1421 /* Sound Effect */,
+				D273F4081ABD727600FD1421 /* Sound EffectTests */,
+				D273F3F11ABD727600FD1421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D273F3F11ABD727600FD1421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D273F3F01ABD727600FD1421 /* Sound Effect.app */,
+				D273F4051ABD727600FD1421 /* Sound EffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D273F3F21ABD727600FD1421 /* Sound Effect */ = {
+			isa = PBXGroup;
+			children = (
+				D273F4171ABD951300FD1421 /* PlaySoundsViewController.swift */,
+				D273F3F51ABD727600FD1421 /* AppDelegate.swift */,
+				D273F3F71ABD727600FD1421 /* RecordSoundViewController.swift */,
+				D273F3F91ABD727600FD1421 /* Main.storyboard */,
+				D273F41B1ABDAA0C00FD1421 /* RecordedAudio.swift */,
+				D273F3FC1ABD727600FD1421 /* Images.xcassets */,
+				D273F3FE1ABD727600FD1421 /* LaunchScreen.xib */,
+				D273F3F31ABD727600FD1421 /* Supporting Files */,
+			);
+			path = "Sound Effect";
+			sourceTree = "<group>";
+		};
+		D273F3F31ABD727600FD1421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D273F4191ABDA49800FD1421 /* movie_quote.mp3 */,
+				D273F3F41ABD727600FD1421 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D273F4081ABD727600FD1421 /* Sound EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D273F40B1ABD727600FD1421 /* Sound_EffectTests.swift */,
+				D273F4091ABD727600FD1421 /* Supporting Files */,
+			);
+			path = "Sound EffectTests";
+			sourceTree = "<group>";
+		};
+		D273F4091ABD727600FD1421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D273F40A1ABD727600FD1421 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D273F3EF1ABD727600FD1421 /* Sound Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D273F40F1ABD727600FD1421 /* Build configuration list for PBXNativeTarget "Sound Effect" */;
+			buildPhases = (
+				D273F3EC1ABD727600FD1421 /* Sources */,
+				D273F3ED1ABD727600FD1421 /* Frameworks */,
+				D273F3EE1ABD727600FD1421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sound Effect";
+			productName = "Sound Effect";
+			productReference = D273F3F01ABD727600FD1421 /* Sound Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D273F4041ABD727600FD1421 /* Sound EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D273F4121ABD727600FD1421 /* Build configuration list for PBXNativeTarget "Sound EffectTests" */;
+			buildPhases = (
+				D273F4011ABD727600FD1421 /* Sources */,
+				D273F4021ABD727600FD1421 /* Frameworks */,
+				D273F4031ABD727600FD1421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D273F4071ABD727600FD1421 /* PBXTargetDependency */,
+			);
+			name = "Sound EffectTests";
+			productName = "Sound EffectTests";
+			productReference = D273F4051ABD727600FD1421 /* Sound EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D273F3E81ABD727600FD1421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = EA;
+				TargetAttributes = {
+					D273F3EF1ABD727600FD1421 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L9Q4U6275Y;
+					};
+					D273F4041ABD727600FD1421 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D273F3EF1ABD727600FD1421;
+					};
+				};
+			};
+			buildConfigurationList = D273F3EB1ABD727600FD1421 /* Build configuration list for PBXProject "Sound Effect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D273F3E71ABD727600FD1421;
+			productRefGroup = D273F3F11ABD727600FD1421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D273F3EF1ABD727600FD1421 /* Sound Effect */,
+				D273F4041ABD727600FD1421 /* Sound EffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D273F3EE1ABD727600FD1421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D273F3FB1ABD727600FD1421 /* Main.storyboard in Resources */,
+				D273F4001ABD727600FD1421 /* LaunchScreen.xib in Resources */,
+				D273F41A1ABDA49800FD1421 /* movie_quote.mp3 in Resources */,
+				D273F3FD1ABD727600FD1421 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D273F4031ABD727600FD1421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D273F3EC1ABD727600FD1421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D273F41C1ABDAA0C00FD1421 /* RecordedAudio.swift in Sources */,
+				D273F3F81ABD727600FD1421 /* RecordSoundViewController.swift in Sources */,
+				D273F4181ABD951300FD1421 /* PlaySoundsViewController.swift in Sources */,
+				D273F3F61ABD727600FD1421 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D273F4011ABD727600FD1421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D273F40C1ABD727600FD1421 /* Sound_EffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D273F4071ABD727600FD1421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D273F3EF1ABD727600FD1421 /* Sound Effect */;
+			targetProxy = D273F4061ABD727600FD1421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D273F3F91ABD727600FD1421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D273F3FA1ABD727600FD1421 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D273F3FE1ABD727600FD1421 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D273F3FF1ABD727600FD1421 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D273F40D1ABD727600FD1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D273F40E1ABD727600FD1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D273F4101ABD727600FD1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D273F4111ABD727600FD1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sound Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D273F4131ABD727600FD1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound EffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound Effect.app/Sound Effect";
+			};
+			name = Debug;
+		};
+		D273F4141ABD727600FD1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound EffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound Effect.app/Sound Effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D273F3EB1ABD727600FD1421 /* Build configuration list for PBXProject "Sound Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D273F40D1ABD727600FD1421 /* Debug */,
+				D273F40E1ABD727600FD1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D273F40F1ABD727600FD1421 /* Build configuration list for PBXNativeTarget "Sound Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D273F4101ABD727600FD1421 /* Debug */,
+				D273F4111ABD727600FD1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D273F4121ABD727600FD1421 /* Build configuration list for PBXNativeTarget "Sound EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D273F4131ABD727600FD1421 /* Debug */,
+				D273F4141ABD727600FD1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D273F3E81ABD727600FD1421 /* Project object */;
+}
